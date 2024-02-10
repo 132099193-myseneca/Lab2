@@ -1,0 +1,12 @@
+import sys
+
+def print_variables():
+    script = sys.argv[0]
+    variable1 = sys.argv[1]
+    variable2 = sys.argv[2]
+    
+    print("Script:", script)
+    print("Variables:", variable1, variable2)
+    print("Script and Variables:", script, variable1, variable2)
+
+print_variables()
